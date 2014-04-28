@@ -2,7 +2,7 @@
 exports.config = {
   // Do not start a Selenium Standalone sever - only run this using chrome.
   chromeOnly: false,
-  chromeDriver: '../node_modules/chromedriver/lib/chromedriver/chromedriver',
+  //chromeDriver: '../node_modules/chromedriver/lib/chromedriver/chromedriver',
   seleniumPort:4444,
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
